@@ -16,6 +16,7 @@
 		3F7D3A5A22A5C50500814F5F /* SwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A5922A5C50500814F5F /* SwiftUIPracticeTests.swift */; };
 		3F7D3A6522A5C50500814F5F /* SwiftUIPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A6422A5C50500814F5F /* SwiftUIPracticeUITests.swift */; };
 		3F7D3A7322A5C9E800814F5F /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A7222A5C9E800814F5F /* CircleImage.swift */; };
+		3F7D3A7522A5CACE00814F5F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A7422A5CACE00814F5F /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		3F7D3A6422A5C50500814F5F /* SwiftUIPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeUITests.swift; sourceTree = "<group>"; };
 		3F7D3A6622A5C50500814F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F7D3A7222A5C9E800814F5F /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		3F7D3A7422A5CACE00814F5F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				3F7D3A4422A5C50300814F5F /* SceneDelegate.swift */,
 				3F7D3A4622A5C50300814F5F /* ContentView.swift */,
 				3F7D3A7222A5C9E800814F5F /* CircleImage.swift */,
+				3F7D3A7422A5CACE00814F5F /* MapView.swift */,
 				3F7D3A4822A5C50500814F5F /* Assets.xcassets */,
 				3F7D3A4D22A5C50500814F5F /* LaunchScreen.storyboard */,
 				3F7D3A5022A5C50500814F5F /* Info.plist */,
@@ -272,6 +275,7 @@
 			files = (
 				3F7D3A4322A5C50300814F5F /* AppDelegate.swift in Sources */,
 				3F7D3A7322A5C9E800814F5F /* CircleImage.swift in Sources */,
+				3F7D3A7522A5CACE00814F5F /* MapView.swift in Sources */,
 				3F7D3A4522A5C50300814F5F /* SceneDelegate.swift in Sources */,
 				3F7D3A4722A5C50300814F5F /* ContentView.swift in Sources */,
 			);
