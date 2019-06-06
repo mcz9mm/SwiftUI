@@ -42,25 +42,10 @@ final class SearchQiitaArticleViewModel: BindableObject {
 
         let assign = Subscribers.Assign(object: self, keyPath: \.articles)
         cancellable = assign
-
-        let task = URLSession.shared.dataTask(with: urlComponent.url!) { data, response, error in
-
-            guard let jsonData = data else {
-                return
-            }
-
-            do {
-                self.articles = try JSONDecoder().decode([QiitaArticle].self, from: jsonData)
-            } catch {
-                self.articles = []
-                print(error.localizedDescription)
-            }
-        }
-        task.resume()
-//        URLSession.shared.send(request: request)
-//            .map { $0.data }
-//            .decode(type: QiitaArticle.self, decoder: JSONDecoder())
-//            .replaceError(with: [QiitaArticle(id: "foo", title: "not valur", url: URL(string: "url")!, likes_count: 20, user: User(id: "mcz9mm"))])
-//            .receive(subscriber: assign)
+        URLSession.shared.send(request: request)
+            .map { $0.data }
+            .decode(type: [QiitaArticle].self, decoder: JSONDecoder())
+            .replaceError(with: [])
+            .receive(subscriber: assign)
     }
 }
