@@ -1,4 +1,4 @@
-# SwiftUI-Sample
+# SwiftUI-Use-ViewController-Sample
 ![platform](https://img.shields.io/badge/platform-ios-blue.svg) ![ios](https://img.shields.io/badge/ios-13.0%2B-blue.svg) ![swift](https://img.shields.io/badge/SwiftUI(beta)-orange.svg)![Swift](https://img.shields.io/badge/Swift(beta)-5.1-brightgreen.svg) 
 
 ## What's this?
