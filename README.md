@@ -19,7 +19,5 @@ https://qiita.com
 
 ## Reference
 
-thanks t
-
 https://github.com/ra1028/SwiftUI-Combine
 It was helpful! Thank you🙇‍♂️
