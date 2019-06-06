@@ -11,4 +11,6 @@ import SwiftUI
 struct User: Hashable, Codable {
 
     var id: String
+    var description: String
+    var profile_image_url: URL
 }
