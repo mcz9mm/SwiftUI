@@ -7,17 +7,21 @@
 //
 
 import SwiftUI
+import WebKit
 
-struct QiitaAriticleDetail : View {
+struct QiitaAriticleDetail<Article : View>: View {
+
+    public var url: URL?
+
+    public var viewController: UIHostingController<Article>
+
+    init(_ view: Article, url: URL) {
+        self.viewController = UIHostingController(rootView: view)
+        self.url = url
+    }
+
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
+        WkWebViewComponent(url: url ?? URL(string: "https://www.google.co.jp/")!, controller: viewController)
+        .navigationBarTitle(Text("Detail"))
     }
 }
-
-#if DEBUG
-struct QiitaAriticleDetail_Previews : PreviewProvider {
-    static var previews: some View {
-        QiitaAriticleDetail()
-    }
-}
-#endif

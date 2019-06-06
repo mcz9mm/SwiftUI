@@ -8,16 +8,18 @@
 
 import SwiftUI
 
-struct WkWebViewComponent : View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello World!"/*@END_MENU_TOKEN@*/)
-    }
-}
+struct WkWebViewComponent : UIViewControllerRepresentable {
 
-#if DEBUG
-struct WkWebViewComponent_Previews : PreviewProvider {
-    static var previews: some View {
-        WkWebViewComponent()
+    var url: URL
+
+    var controller: UIViewController
+
+    func makeUIViewController(context: Context) -> WebViewController {
+        let viewController = WebViewController.make(with: url)
+        return viewController
+    }
+
+    func updateUIViewController(_ viewController: WebViewController, context: Context) {
+        viewController.webView.reload()
     }
 }
-#endif

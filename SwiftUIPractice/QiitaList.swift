@@ -23,7 +23,11 @@ struct QiitaList : View {
                 }
 
                 List(viewModel.articles) { article in
-                    QiitaListRow(model: article)
+
+                    NavigationButton(destination: QiitaAriticleDetail(self, url: article.url)) {
+                        QiitaListRow(model: article)
+                    }
+
                 }
             }
             .navigationBarTitle(Text("Articles"),

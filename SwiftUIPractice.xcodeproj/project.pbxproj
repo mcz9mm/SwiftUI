@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0C641A22A8E67A00DEF3D8 /* QiitaAriticleDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C641922A8E67A00DEF3D8 /* QiitaAriticleDetail.swift */; };
+		3F0C641C22A8E6F600DEF3D8 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C641B22A8E6F600DEF3D8 /* WebViewController.swift */; };
+		3F0C642022A8EAAA00DEF3D8 /* WkWebViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0C641F22A8EAAA00DEF3D8 /* WkWebViewComponent.swift */; };
 		3F6843A522A8821F007B31C6 /* QiitaListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6843A422A8821F007B31C6 /* QiitaListRow.swift */; };
 		3F6843A722A88256007B31C6 /* QiitaArticle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6843A622A88256007B31C6 /* QiitaArticle.swift */; };
 		3F6843AA22A88829007B31C6 /* SearchQiitaArticleViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6843A922A88829007B31C6 /* SearchQiitaArticleViewModel.swift */; };
@@ -15,7 +18,6 @@
 		3F6843BC22A8B419007B31C6 /* AnySubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6843BB22A8B419007B31C6 /* AnySubscription.swift */; };
 		3F7D3A4322A5C50300814F5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A4222A5C50300814F5F /* AppDelegate.swift */; };
 		3F7D3A4522A5C50300814F5F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A4422A5C50300814F5F /* SceneDelegate.swift */; };
-		3F7D3A4922A5C50500814F5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D3A4822A5C50500814F5F /* Assets.xcassets */; };
 		3F7D3A4C22A5C50500814F5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D3A4B22A5C50500814F5F /* Preview Assets.xcassets */; };
 		3F7D3A4F22A5C50500814F5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F7D3A4D22A5C50500814F5F /* LaunchScreen.storyboard */; };
 		3F7D3A5A22A5C50500814F5F /* SwiftUIPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F7D3A5922A5C50500814F5F /* SwiftUIPracticeTests.swift */; };
@@ -42,6 +44,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0C641922A8E67A00DEF3D8 /* QiitaAriticleDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaAriticleDetail.swift; sourceTree = "<group>"; };
+		3F0C641B22A8E6F600DEF3D8 /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		3F0C641F22A8EAAA00DEF3D8 /* WkWebViewComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WkWebViewComponent.swift; sourceTree = "<group>"; };
 		3F6843A422A8821F007B31C6 /* QiitaListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaListRow.swift; sourceTree = "<group>"; };
 		3F6843A622A88256007B31C6 /* QiitaArticle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QiitaArticle.swift; sourceTree = "<group>"; };
 		3F6843A922A88829007B31C6 /* SearchQiitaArticleViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchQiitaArticleViewModel.swift; sourceTree = "<group>"; };
@@ -51,7 +56,6 @@
 		3F7D3A3F22A5C50300814F5F /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F7D3A4222A5C50300814F5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F7D3A4422A5C50300814F5F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F7D3A4822A5C50500814F5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F7D3A4B22A5C50500814F5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F7D3A4E22A5C50500814F5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F7D3A5022A5C50500814F5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -131,7 +135,9 @@
 				3F7D3A4422A5C50300814F5F /* SceneDelegate.swift */,
 				3F6843B522A89BF0007B31C6 /* QiitaList.swift */,
 				3F6843A422A8821F007B31C6 /* QiitaListRow.swift */,
-				3F7D3A4822A5C50500814F5F /* Assets.xcassets */,
+				3F0C641922A8E67A00DEF3D8 /* QiitaAriticleDetail.swift */,
+				3F0C641F22A8EAAA00DEF3D8 /* WkWebViewComponent.swift */,
+				3F0C641B22A8E6F600DEF3D8 /* WebViewController.swift */,
 				3F7D3A4D22A5C50500814F5F /* LaunchScreen.storyboard */,
 				3F7D3A5022A5C50500814F5F /* Info.plist */,
 				3F7D3A4A22A5C50500814F5F /* Preview Content */,
@@ -271,7 +277,6 @@
 			files = (
 				3F7D3A4F22A5C50500814F5F /* LaunchScreen.storyboard in Resources */,
 				3F7D3A4C22A5C50500814F5F /* Preview Assets.xcassets in Resources */,
-				3F7D3A4922A5C50500814F5F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,12 +301,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F0C641A22A8E67A00DEF3D8 /* QiitaAriticleDetail.swift in Sources */,
 				3F6843BC22A8B419007B31C6 /* AnySubscription.swift in Sources */,
 				3F7D3A4322A5C50300814F5F /* AppDelegate.swift in Sources */,
 				3F6843A722A88256007B31C6 /* QiitaArticle.swift in Sources */,
 				3F6843B622A89BF0007B31C6 /* QiitaList.swift in Sources */,
 				3F6843A522A8821F007B31C6 /* QiitaListRow.swift in Sources */,
 				3F7D3A4522A5C50300814F5F /* SceneDelegate.swift in Sources */,
+				3F0C641C22A8E6F600DEF3D8 /* WebViewController.swift in Sources */,
+				3F0C642022A8EAAA00DEF3D8 /* WkWebViewComponent.swift in Sources */,
 				3F81E63322A8B50700D72DEA /* URLSession+Entension.swift in Sources */,
 				3F6843AA22A88829007B31C6 /* SearchQiitaArticleViewModel.swift in Sources */,
 				3F81E63522A8B52A00D72DEA /* CustomSearchBar.swift in Sources */,
@@ -474,6 +482,10 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftUIPractice/Preview\\ Content";
 				DEVELOPMENT_TEAM = PA3RF24U47;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SwiftUIPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -494,6 +506,10 @@
 				DEVELOPMENT_ASSET_PATHS = "SwiftUIPractice/Preview\\ Content";
 				DEVELOPMENT_TEAM = PA3RF24U47;
 				ENABLE_PREVIEWS = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SwiftUIPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

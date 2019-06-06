@@ -33,7 +33,8 @@ struct QiitaListRow_Previews : PreviewProvider {
                                          title: "Foo",
                                          url: URL(string: "url")!,
                                          likes_count: 20,
-                                         user: User(id: "mcz9mm")))
+                                         user: User(id: "mcz9mm", description: "foo", profile_image_url: URL(string: "url")!)
+        ))
         .previewLayout(.fixed(width: 300, height: 70))
     }
 }
